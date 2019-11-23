@@ -1,0 +1,81 @@
+.mySlides {
+	display: none;
+	height: 290px;
+}
+
+.Box1::after {
+	content: "";
+	display: inline-block;
+	clear: both;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#navbar {
+	height: 50px;
+	border:solid;
+	box-sizing: border-box;
+	background-color: #75849c;
+	padding: 10px
+}
+
+#navbar::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.rightmenu {
+	float: right;
+	height: 50px;
+	padding: auto 0;
+}
+
+.rightmenu ul {
+	list-style: none;
+}
+
+.rightmenu ul li {
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	float: left;
+	position: relative;
+}
+
+.rightmenu ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+
+a:hover {
+	color: black;
+}
+
+}
+.list {
+	list-style-type: none;
+	margin: auto;
+	text-align: center;
+}
+
+ul.list li {
+	width: 250px;
+	margin-bottom: 10px;
+	color: #000;
+}
+
+ul.list li input[type="text"], [type="date"] {
+	width: 200px;
+	text-align: center;
+	padding: 8px 0px;
+	border: none;
+	color: #666;
+	background-color: #d3d3d3;
+}
